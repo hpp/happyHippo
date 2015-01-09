@@ -35,13 +35,13 @@ Now the Tale of Dogma holds a reference to you, who ever you are.
 
 ###Chess Model
 
-Self is a game. Chess. You are one move. One move, this move need not hold reference to other moves that are unobtainable from this move. At any time z the number of moves is finite. Hence, continuous time t moves into finite space Z. Z is a complex space. That is to say, z = x + iy, of a harmonic system, u(x,y) + v(x,y) = 0. Hence if u''!=0 then v''=f(u''), u holds reference to v. 
+Self is a game. Chess. You are one move. One move, this move need not hold reference to other moves that are unobtainable from this move. At any time z the number of moves is finite. Hence, continuous time t moves into finite space Z. Z is a complex space. That is to say, z = x + iy, of a harmonic system, u(x,y) + v(x,y) = 0. Hence if u''!=0 or v''!=0 then v''=f(u''), u holds reference to v. 
 
 This is important as  z is mapped from t (continuous time) hence, u(t,s) + v(t,s) also must equal zero! As x is a representation of real time, and y only possible in multidimensional space.
 
-The number of chess games explodes. 64 squares, 16 pieces each, if each piece averages 2 or 3 possible moves => 16*2.3 after each move n, you(n) = n^16*2.3, however you at time n only hold 32 to 48 possible moves approximately. And this number decreases with time, as chess is a stable system. Possible chess games explode which make chess appear unstable, but there is a finite number of chess games. In chess there is a loop breaker, if the same position is reached 3 times the games a draw. All games end, and have been played in computational space => chess is a solved game. 
+The number of chess games explodes. 64 squares, 16 pieces each, if each piece averages 2 or 3 possible moves => 16*2.3 after each move n, you(n) = n^16*2.3, however you at time n only hold 32 to 48 possible moves approximately. And this number decreases with time, as chess is a stable system. Possible chess games explode which make chess appear unstable, but there is a finite number of chess games. No infinite loops in chess. Chess has a loop breaker, if the same position is reached 3 times the games a draw. All games end, and have been played in computational space => chess is a solved game. 
 
-So if chess is a stable system as n increases the number of possible moves decreases. you(n) = e^-Llamda*m, where m = n^16*2.3, anyway bottom line as n -> inifinity, you(n) -> 0.
+So if chess is a stable system as n increases the number of possible moves decreases. you(n) = e^-Llamda*m, where m = n^16*2.3, anyway bottom line as n -> inifinity, you(n) -> 0, checkMate or draw!
 
 
 
