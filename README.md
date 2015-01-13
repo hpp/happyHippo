@@ -1,5 +1,5 @@
 # happyHippo
-How to mix MongoDB with Rails 2.1 for gandi.net hpp.io "the happy hippo"
+How to mix MongoDB with Rails 2.1 for gandi.net hpp.io "the happy hippo", this essentially for Penny v4.0, only available on Chrome OS, anyone with Chrome and OpenGL (WebGL) enabled. And the base hpp.io website, The Happy Hippo!
 
 We are creating a web app based on Penelope. Remember Penny v2.0 each archetype could hold a reference to another archetype. In Swift this was optionals. In MongoD this is a relational database. Through SSH portals we can run these systems on 24 core processor. Through native application we retrieve access to a parallel processing chip, albeit Nvidia GTX 560ti, essentially 1 gigaflop calculations per device codec. These A/V codecs can be programmed through use of OpenGL -> Opengles 3.0; 
 
@@ -39,9 +39,11 @@ Self is a game. Chess. You are one move. One move, this move need not hold refer
 
 This is important as  z is mapped from t (continuous time) hence, u(t,s) + v(t,s) also must equal zero! As x is a representation of real time, and y only possible in multidimensional space.
 
-The number of chess games explodes. 64 squares, 16 pieces each, if each piece averages 2 or 3 possible moves => 16*2.3 after each move n, you(n) = n^16*2.3, however you at time n only hold 32 to 48 possible moves approximately. And this number decreases with time, as chess is a stable system. Possible chess games explode which make chess appear unstable, but there is a finite number of chess games. No infinite loops in chess. Chess has a loop breaker, if the same position is reached 3 times the games a draw. All games end, and have been played in computational space => chess is a solved game. 
+The number of chess games explodes. 64 squares, 16 pieces each, if each piece averages 2 or 3 possible moves => 16(2.3) after each move n, you(n) = n^(16(2.3)), however you at time n only hold 32 to 48 possible moves approximately. And this number decreases with time, as chess is a stable system. Possible chess games explode which make chess appear unstable, but there is a finite number of chess games. No infinite loops in chess. Chess has a loop breaker, if the same position is reached 3 times the games a draw. All games end, and have been played in computational space => chess is a solved game. 
 
-So if chess is a stable system as n increases the number of possible moves decreases. you(n) = e^-Llamda*m, where m = n^16*2.3, anyway bottom line as n -> inifinity, you(n) -> 0, checkMate or draw!
+So if chess is a stable system as n increases the number of possible moves decreases. you(n) = e^-Llamda(m), where m = n^16(2.3), anyway bottom line as n -> inifinity, you(n) -> 0, checkMate or draw!
+
+Now that we have defined chess in turns of a sampled signal (z) from a continuous wave (t,s) we can began looking at the sample increments in terms of particles. Implementing a fractal brownian motion system (Einstein used these to calculate avacado's #) set each move to a pixel in julia fractal space. In fractal space the inverse itterative function blows up, f(z) = {+,-}.sqrt(z-c), where C is the constant from current position. Where in chess plus would be the closest point where u'(x,y)=0 and minus v'(x,y)=0.
 
 
 
